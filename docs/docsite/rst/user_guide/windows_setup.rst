@@ -137,7 +137,7 @@ for these options are located at the top of the script itself.
 .. Note:: The ConfigureRemotingForAnsible.ps1 script is intended for training and
     development purposes only and should not be used in a
     production environment, since it enables settings (like ``Basic`` authentication)
-    that can be inherently insecure.
+    that can be inherently insecure. Kerberos is a safer production setup. ( see https://docs.ansible.com/ansible/latest/user_guide/windows_winrm.html#kerberos )
 
 WinRM Listener
 --------------
